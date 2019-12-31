@@ -1,11 +1,7 @@
-import { type as Domain } from './domain-ledger';
-import { type as Pool } from './pool-ledger';
-import { type as Config } from './config-ledger';
-import { type as Read } from './read-requests';
+import Write from './write';
+import { type as Read } from './read';
 
 export default {
-  Domain,
-  Pool,
-  Config,
+  Write,
   Read,
 };

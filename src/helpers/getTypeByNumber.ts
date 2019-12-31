@@ -2,9 +2,7 @@ import txs from '../tx-types/index';
 
 const types: { [key: string]: string } = {
   ...txs.Read,
-  ...txs.Config,
-  ...txs.Domain,
-  ...txs.Pool,
+  ...txs.Write,
 };
 
 export function getTypeByNumber(number: number | string): string {
