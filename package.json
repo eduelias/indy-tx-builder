@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "github.com/tykntech/indy-tx-builder"
+    "url": "github.com/eduelias/indy-tx-builder"
   },
   "keywords": [
     "Hyperledger",
