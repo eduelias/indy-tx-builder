@@ -1,0 +1,31 @@
+{
+  "name": "indy-tx-builder",
+  "version": "0.1.0",
+  "description": "Hyperledger Indy Transaction Builder",
+  "main": "dist/index.js",
+  "types": "dist/types",
+  "module": "src/index.ts",
+  "scripts": {
+    "test": "jest --coverage",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/tykntech/indy-tx-builder"
+  },
+  "keywords": [
+    "Hyperledger",
+    "Indy",
+    "Transaction"
+  ],
+  "author": "Eduardo Elias Saleh",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1",
+    "tslint": "^5.20.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.1.0",
+    "typescript": "^3.7.4"
+  }
+}
