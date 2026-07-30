@@ -1,0 +1,48 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="indy-tx-builder promotional banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A0E0C"/>
+      <stop offset="0.55" stop-color="#0D1712"/>
+      <stop offset="1" stop-color="#16281F"/>
+    </linearGradient>
+    <style>
+      .kicker { font: 700 22px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #4ADE80; letter-spacing: 4px; }
+      .title  { font: 700 72px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #FFFFFF; }
+      .sub    { font: 600 32px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #CFE3D8; }
+      .bullet { font: 400 26px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #E8F0EB; }
+      .footl  { font: 700 22px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #8FAE9E; }
+      .footr  { font: 400 22px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #7E8F87; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <text class="kicker" x="56" y="80">TYPESCRIPT · HYPERLEDGER INDY</text>
+
+  <!-- decorative linked blocks top-right -->
+  <g transform="translate(975,42)" stroke="#4ADE80" stroke-width="2.5" fill="none">
+    <rect x="0" y="30" rx="8" ry="8" width="52" height="52"/>
+    <rect x="76" y="30" rx="8" ry="8" width="52" height="52" stroke-opacity="0.7"/>
+    <rect x="152" y="30" rx="8" ry="8" width="52" height="52" stroke-opacity="0.45"/>
+    <path d="M52 56 h24 M128 56 h24" stroke-linecap="round"/>
+    <path d="M18 48 l8 8 l14 -16" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <text class="title" x="52" y="165">indy-tx-builder</text>
+
+  <text class="sub" x="56" y="225">A typed catalogue of Hyperledger Indy</text>
+  <text class="sub" x="56" y="268">transaction types — in pure TypeScript.</text>
+
+  <g fill="#4ADE80">
+    <circle cx="66" cy="352" r="7"/>
+    <circle cx="66" cy="406" r="7"/>
+    <circle cx="66" cy="460" r="7"/>
+  </g>
+  <text class="bullet" x="92" y="361">Domain, pool, and config ledger — reads and writes covered</text>
+  <text class="bullet" x="92" y="415">Reverse lookup: transaction number → type name</text>
+  <text class="bullet" x="92" y="469">Zero runtime dependencies</text>
+
+  <line x1="56" y1="540" x2="1144" y2="540" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="2"/>
+  <text class="footl" x="56" y="588">TypeScript · zero dependencies</text>
+  <text class="footr" x="1144" y="588" text-anchor="end">MIT · unofficial, Hyperledger marks used descriptively</text>
+</svg>
